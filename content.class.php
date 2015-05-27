@@ -1,11 +1,14 @@
 <?php
+namespace Entity;
+
 class content{
     private $id;
     private $title;
     private $body;
     private $menu_title;
     private $header_title;
-    private $db;
+    private $created_at;
+    private $update_at;
 
     public function __construct( mysqli &$db ){
         $this->db = $db;
