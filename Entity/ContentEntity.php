@@ -1,7 +1,7 @@
 <?php
 namespace Entity;
 
-class content{
+class ContentEntity{
     private $id;
     private $title;
     private $body;
